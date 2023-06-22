@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+html{
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	
+	font-size: 2rem;
+	margin: 0.5rem;
+	
+	transition:.5s;
+}
+
+a:hover{
+	transform: scale(1.2);
+}
+
+body{
+	height: 80vh;
+	width: 100vw;
+	background: rgba( 89, 84, 108, 0.7 );
+	backdrop-filter: blur( 16px );
+	-webkit-backdrop-filter: blur( 16px );
+	border-radius: 10px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header{
+	width: auto;
+	height: 30vh;
+	
+	font-size: 1.3rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{	
+	font-size: 2.5rem;
+	margin: 1rem;
+}
+
+main{
+	width: 80vw;
+	height: 50vh;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card-options{
+	background: rgba( 255, 255, 255, 0.50 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+	width: 20vw;
+	height: 45vh;
+	margin: 1rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 1rem;
+}
+
+.turma{
+	background: rgba( 136, 148, 243, 0.50);
+}
+
+.aluno{
+	background: rgba( 140, 186, 128, 0.50);
+}
+
+.card-options form input{
+	background-color: transparent;
+	border: none;
+	
+	cursor: pointer;
+	font-size: 3rem;
+	transition: .3s;
+}
+
+.card-options form input:hover{
+	transform: scale(1.2);
+}
+
+.form-cadastro{
+	height: 100%;
+	width: 50vw;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	background: rgba( 14, 19, 31, 0.55 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+	color: white;
+}
+
+.input-form{
+	height: 45%;
+	margin: 0.2rem;
+}
+
+.input-form input{
+	width: 30vw;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	
+	border-bottom: 1px #747476 solid;
+	transition: .3s;
+	color:white;
+}
+
+.input-form input:focus {
+	border-bottom: 1px white solid;
+}
+
+.form-cadastro input[type="submit"] {
+	cursor: pointer;
+	color: white;
+	outline: none;
+	border: none;
+	
+	background-color: #0e131f;
+	padding: 1rem;
+	border-radius: 1rem;
+	
+	transition: .5s;
+}
+
+.form-cadastro input[type="submit"]:hover{
+	transform: scale(1.2);	
+	background-color: black;
+}
+
+.aviso{
+	position: fixed;
+	top: 6px;
+	right: 6px;
+}
+
+.table-list{
+	min-height: 40vh;
+	width: 65vw;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+	background: rgba( 14, 19, 31, 0.55 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
+	color: white;
+}
+
+table{
+	margin: 1rem;
+}
+
+table tr{
+	width: 60vw;
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+.t-header{
+	height: 10vh;
+	
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	
+	background-color: #111314;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #CEDADF;
+  color: black;
+}
