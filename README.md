@@ -8,5 +8,5 @@
 5. Foi criado um arquivo CSS para implementar a estilização nas páginas;
 6. Foram criados os arquivos DAO's para implementar o que será incluído na database (método de criação e leitura dos dados);
 
-**- Em resumo, o objetivo do projeto era criar uma turma e criar um aluno vinculado a essas turmas; de forma que, quando eu tentasse ler as informações de um aluno, apareceria também o nome da turma relacionada a esse aluno.**
+- Em resumo, o objetivo do projeto era criar uma turma e criar um aluno vinculado a essas turmas; de forma que, quando eu tentasse ler as informações de um aluno, apareceria também o nome da turma relacionada a esse aluno.
 - Ademais, algumas validações foram implementadas, como: Os campos não podem ser nulos ou vazios; o código de uma turma e a matrícula de um aluno são 'uniques', entre outras.
